@@ -12,4 +12,9 @@ async function testApi() {
     var sysInfo = await d2Get("/api/system/info.json");
     console.log(sysInfo.version);
 }
-testApi();
+
+window.helloWorld = async function () {
+    await testApi();
+    alert("Hello world...");
+    
+};
