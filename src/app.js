@@ -4,6 +4,7 @@
 import { d2Get, d2PostJson, d2PutJson } from "./js/d2api.js";
 
 //CSS
+import "./css/header.css";
 import "./css/style.css";
 
 //Test setup by calling API
