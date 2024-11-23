@@ -1,8 +1,7 @@
 "use strict";
 
 //JS
-import $ from "jquery"; //eslint-disable-line
-import { d2Get } from "./js/d2api.js";
+import { d2Get, d2PostJson, d2PutJson } from "./js/d2api.js";
 
 //CSS
 import "./css/style.css";
@@ -13,8 +12,9 @@ async function testApi() {
     console.log(sysInfo.version);
 }
 
+
 window.helloWorld = async function () {
     await testApi();
     alert("Hello world...");
-    
+
 };
