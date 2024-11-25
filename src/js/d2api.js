@@ -1,3 +1,7 @@
+const dhisDevConfig = DHIS_CONFIG;
+const isDev = "baseUrl" in dhisDevConfig;
+const baseUrl = isDev ? dhisDevConfig.baseUrl : "../../..";
+
 // Helper function to set headers for development mode
 const getHeaders = () => {
     let headers = new Headers();
