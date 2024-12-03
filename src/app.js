@@ -1,7 +1,7 @@
 "use strict";
 
 //JS
-import { d2Get, d2PostJson, d2PutJson } from "./js/d2api.js";
+import { d2Get } from "./js/d2api.js";
 
 //CSS
 import "./css/header.css";
